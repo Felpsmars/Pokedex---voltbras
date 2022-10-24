@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Pokedex---voltbras/static/css/main.009a5f8d.css",
-    "main.js": "/Pokedex---voltbras/static/js/main.951ae2d3.js",
+    "main.css": "/Pokedex---voltbras/static/css/main.0bcca8ff.css",
+    "main.js": "/Pokedex---voltbras/static/js/main.32a3c657.js",
     "index.html": "/Pokedex---voltbras/index.html",
-    "main.009a5f8d.css.map": "/Pokedex---voltbras/static/css/main.009a5f8d.css.map",
-    "main.951ae2d3.js.map": "/Pokedex---voltbras/static/js/main.951ae2d3.js.map"
+    "main.0bcca8ff.css.map": "/Pokedex---voltbras/static/css/main.0bcca8ff.css.map",
+    "main.32a3c657.js.map": "/Pokedex---voltbras/static/js/main.32a3c657.js.map"
   },
   "entrypoints": [
-    "static/css/main.009a5f8d.css",
-    "static/js/main.951ae2d3.js"
+    "static/css/main.0bcca8ff.css",
+    "static/js/main.32a3c657.js"
   ]
 }
