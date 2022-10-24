@@ -1,0 +1,108 @@
+.container {
+  margin-bottom: 90px;
+}
+
+.slider {
+  position: relative;
+  width: 349px;
+}
+
+.slider__track,
+.slider__range,
+.slider__left_value,
+.slider__right_value {
+  position: absolute;
+}
+
+.slider__track,
+.slider__range {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.slider__track {
+  width: 100%;
+  z-index: 1;
+  background: #dbdbdb 0% 0% no-repeat padding-box;
+}
+
+.slider__range {
+  background-color: #04e762;
+
+  z-index: 2;
+}
+
+.slider__left_value,
+.slider__right_value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal normal bold 20px/26px Roboto;
+  color: #333333;
+  margin-top: 20px;
+  border: 2px solid #dbdbdb;
+  border-radius: 10px;
+  width: 77px;
+  height: 34px;
+}
+
+.slider__left_value {
+  left: 6px;
+}
+
+.slider__right_value {
+  right: -4px;
+}
+
+/* Removing the default appearance */
+.thumb,
+.thumb::-webkit-slider-thumb {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.thumb {
+  -webkit-appearance: none;
+  pointer-events: none;
+  position: absolute;
+  height: 0;
+  width: 349px;
+  outline: none;
+}
+
+.thumb--left {
+  z-index: 3;
+}
+
+.thumb--right {
+  z-index: 4;
+}
+
+/* For Chrome browsers */
+.thumb::-webkit-slider-thumb {
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px #00000029;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 6px;
+  pointer-events: all;
+  position: relative;
+
+  appearance: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+/* For Firefox browsers */
+.thumb::-moz-range-thumb {
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px #00000029;
+  cursor: pointer;
+  height: 18px;
+  width: 18px;
+  margin-top: 6px;
+  pointer-events: all;
+  position: relative;
+
+  appearance: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
