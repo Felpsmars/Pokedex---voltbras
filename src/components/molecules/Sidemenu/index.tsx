@@ -12,7 +12,7 @@ import {
 const SideMenu = () => {
   const [checked, setChecked] = useState<boolean>(false);
   return (
-    <div className={style.superContainer}>
+    <div className={style.containerSideMenu}>
       <input
         onChange={() => setChecked(!checked)}
         type='checkbox'
@@ -22,7 +22,7 @@ const SideMenu = () => {
       <label htmlFor='menu-hamburguer' className={style.menu_label}>
         <img src='http://svgshare.com/i/Jj.svg' />
       </label>
-      <div className={style.container}>
+      <div className={style.contentContainer}>
         <div className={style.logoContainer}>
           <img src={voltbraslogo} alt='voltbraslogo' />
           <div>

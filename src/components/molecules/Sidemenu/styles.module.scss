@@ -1,4 +1,4 @@
-.container {
+.contentContainer {
   display: flex;
   flex-direction: column;
   width: 200px;
@@ -6,19 +6,19 @@
   padding: 117px 0 0 47px;
 }
 
-.superContainer {
+.containerSideMenu {
   display: flex;
   flex-direction: column;
 }
 
-.menu_input:not(checked) ~ .container {
+.menu_input:not(checked) ~ .contentContainer {
   display: none;
   transition: 1s;
   @media (min-width: 1200px) {
     display: flex;
   }
 }
-.menu_input:checked ~ .container {
+.menu_input:checked ~ .contentContainer {
   display: flex;
   position: absolute;
 

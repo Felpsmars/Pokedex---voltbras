@@ -71,11 +71,11 @@ function FilterSearch() {
   }, [pokemonData]);
 
   return (
-    <div className={style.overOverOverContainer}>
+    <div className={style.containerFilterSearch}>
       <div>
         <SideMenu />
       </div>
-      <div className={style.overOverContainer}>
+      <div className={style.overContentContainer}>
         <div className={style.contentContainer}>
           <PokemonContainer
             totalVisible={firstVariables.first}
