@@ -1,0 +1,48 @@
+.filterContainer {
+  height: 500px;
+  min-width: 400px;
+  padding: 40px 0px 0px 40px;
+  margin-right: 30px;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  border-radius: 50px;
+
+  .titlePokemon {
+    font: normal normal bold 35px/46px Roboto;
+    color: #333333;
+    padding-bottom: 20px;
+  }
+
+  .textsPokemon {
+    font: normal normal normal 14px/19px Roboto;
+    color: #939393;
+    padding-bottom: 12px;
+  }
+}
+
+.overOverOverContainer {
+  display: flex;
+  @media (max-width: 1280px) {
+    justify-content: center;
+  }
+}
+
+.contentContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+
+.overOverContainer {
+  display: flex;
+
+  @media (max-width: 1200px) {
+    .contentContainer {
+      flex-direction: column-reverse;
+      margin: 0px;
+    }
+    .filterContainer {
+      margin: 0px;
+    }
+  }
+}
