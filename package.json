@@ -1,6 +1,7 @@
 {
   "name": "pokedex",
   "version": "0.1.0",
+  "homepage": "github-page/",
   "private": true,
   "dependencies": {
     "@apollo/react-hooks": "^4.0.0",
