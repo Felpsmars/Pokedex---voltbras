@@ -1,4 +1,4 @@
-# Desafio-Mettzer
+# Pokedex
 
 # Contexto
 Este projeto trata-se de uma ferramenta de pesquisa dos primeiros 150 pokemons por nome e tipos.
